@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseña tu salud</title>
+    <link rel="stylesheet" href="Estilos/style.css">
+    <script src="https://kit.fontawesome.com/0498ed53bf.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <img src="imagenes/Logotipo.png" alt="" class="logo">
+        <nav class="navegacion">
+            <a href="index.html" class="nave">Inicio</a>
+            <a href="about.html" class="nave">Acerca de</a>
+            <a href="customer.html" class="nave">Atención al usuario</a>
+            <a href="ourApp.html" class="nave">Nuestra App</a>
+            <a href="registroform.html" class="nave">Registrarme</a>
+            <button class="btn"><a href="login.html">Iniciar sesión</a></button>
+        </nav>
+    </header>
+    <div class="fondo">
+        <span class="icono-cerrar"><i class="fa-solid fa-xmark"></i></span>
+        <div class="contenedor-form login">
+            <h2>Iniciar Sesión</h2>
+            <form action="#">
+                <div class="contenedor-input">
+                    <span class="icono"><i class="fa-solid fa-id-card"></i></span>
+                    <input type="Number" required>
+                    <label for="#">N° identificación</label>
+                </div>
+                <div class="contenedor-input">
+                    <span class="icono"><i class="fa-solid fa-lock"></i></span>
+                    <input type="password" required>
+                    <label for="#">Digite su contraseña</label>
+                </div>
+                <div class="recordar">
+                    <label for="#"><input type="checkbox">Recordar sesión</label>
+                    <a href="#">¿Olvidaste tu contraseña?</a>
+                </div>
+                <button type="submit" class="btn">Iniciar sesión</button>
+                <div class="registrar">
+                    <p>¿No tienes cuenta? <a href="#" class="registrar-link">Registrarse</a></p>
+                </div>
+            </form>
+        </div>
+        
+    </div>
+</body>
